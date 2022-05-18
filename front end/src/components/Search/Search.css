@@ -1,0 +1,19 @@
+.search-form{
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box{
+    height: 80px;
+    width: 600px;
+    font: 3em sans-serif;
+}
+
+.submit-button{
+    height: 80px;
+    width: 300px;
+}
