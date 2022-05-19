@@ -1,7 +1,7 @@
 
 
 function FormatStringForQuery(string){
-    return string.replace(/[^A-Za-z0-9\s]/g," ").replace(/\s{2,}/g, " ").trim().replaceAll(" ", "%20");
+    return string.replace(/[^A-Za-z0-9\s]/g," ").replace(/\s{2,}/g, " ").trim().replace(/ /g, "%20");
 }
 
 
