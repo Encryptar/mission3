@@ -42,6 +42,7 @@ const Search = () => {
         ).catch((error) => {
             console.log("Error occured while fetching: ", + error);
         });
+        console.log(fetchPromise)
     }
 
   return (
